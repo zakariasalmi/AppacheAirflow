@@ -1,0 +1,1668 @@
+[2024-04-14T12:04:00.322+0000] {processor.py:161} INFO - Started process (PID=4003) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:04:00.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:04:00.327+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:04:00.326+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:04:00.348+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:04:00.347+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:04:00.350+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:04:00.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.066 seconds
+[2024-04-14T12:04:31.197+0000] {processor.py:161} INFO - Started process (PID=4062) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:04:31.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:04:31.215+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:04:31.215+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:04:31.260+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:04:31.258+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:04:31.262+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:04:31.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.158 seconds
+[2024-04-14T12:05:01.504+0000] {processor.py:161} INFO - Started process (PID=4121) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:05:01.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:05:01.511+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:05:01.510+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:05:01.619+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:05:01.613+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:05:01.624+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:05:01.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.231 seconds
+[2024-04-14T12:05:32.678+0000] {processor.py:161} INFO - Started process (PID=4180) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:05:32.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:05:32.682+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:05:32.682+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:05:32.705+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:05:32.703+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:05:32.706+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:05:32.743+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.079 seconds
+[2024-04-14T12:06:03.145+0000] {processor.py:161} INFO - Started process (PID=4239) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:06:03.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:06:03.150+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:06:03.149+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:06:03.173+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:06:03.171+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:06:03.176+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:06:03.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.084 seconds
+[2024-04-14T12:06:33.668+0000] {processor.py:161} INFO - Started process (PID=4297) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:06:33.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:06:33.672+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:06:33.672+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:06:33.694+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:06:33.692+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:06:33.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:06:33.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.065 seconds
+[2024-04-14T12:07:04.535+0000] {processor.py:161} INFO - Started process (PID=4356) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:07:04.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:07:04.553+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:07:04.552+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:07:04.608+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:07:04.605+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:07:04.610+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:07:04.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.133 seconds
+[2024-04-14T12:07:35.122+0000] {processor.py:161} INFO - Started process (PID=4415) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:07:35.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:07:35.144+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:07:35.143+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:07:35.184+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:07:35.182+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:07:35.185+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:07:35.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.127 seconds
+[2024-04-14T12:08:05.820+0000] {processor.py:161} INFO - Started process (PID=4474) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:08:05.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:08:05.827+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:08:05.826+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:08:05.858+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:08:05.856+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:08:05.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:08:05.901+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.096 seconds
+[2024-04-14T12:08:36.324+0000] {processor.py:161} INFO - Started process (PID=4533) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:08:36.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:08:36.328+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:08:36.328+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:08:36.348+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:08:36.347+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:08:36.349+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:08:36.374+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.059 seconds
+[2024-04-14T12:09:06.974+0000] {processor.py:161} INFO - Started process (PID=4592) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:09:06.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:09:06.978+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:09:06.978+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:09:07.002+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:09:07.000+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:09:07.003+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:09:07.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.080 seconds
+[2024-04-14T12:09:37.144+0000] {processor.py:161} INFO - Started process (PID=4650) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:09:37.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:09:37.149+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:09:37.148+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:09:37.172+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:09:37.170+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:09:37.173+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:09:37.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.062 seconds
+[2024-04-14T12:10:07.748+0000] {processor.py:161} INFO - Started process (PID=4707) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:10:07.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:10:07.753+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:10:07.752+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:10:07.774+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:10:07.773+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:10:07.775+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:10:07.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.065 seconds
+[2024-04-14T12:10:38.524+0000] {processor.py:161} INFO - Started process (PID=4766) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:10:38.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:10:38.529+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:10:38.529+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:10:38.552+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:10:38.551+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:10:38.553+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:10:38.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.070 seconds
+[2024-04-14T12:11:09.223+0000] {processor.py:161} INFO - Started process (PID=4825) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:11:09.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:11:09.239+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:11:09.238+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:11:09.272+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:11:09.270+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:11:09.274+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:11:09.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.117 seconds
+[2024-04-14T12:11:39.476+0000] {processor.py:161} INFO - Started process (PID=4884) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:11:39.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:11:39.480+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:11:39.480+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:11:39.503+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:11:39.502+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 8
+    
+    ^
+IndentationError: expected an indented block after 'with' statement on line 5
+[2024-04-14T12:11:39.504+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:11:39.532+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.064 seconds
+[2024-04-14T12:11:48.164+0000] {processor.py:161} INFO - Started process (PID=4899) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:11:48.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:11:48.169+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:11:48.169+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:11:48.209+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:11:48.203+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:11:48.212+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:11:48.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.087 seconds
+[2024-04-14T12:11:57.255+0000] {processor.py:161} INFO - Started process (PID=4923) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:11:57.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:11:57.258+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:11:57.258+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:11:57.298+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:11:57.293+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:11:57.300+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:11:57.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.085 seconds
+[2024-04-14T12:12:27.425+0000] {processor.py:161} INFO - Started process (PID=4982) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:12:27.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:12:27.429+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:12:27.429+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:12:27.450+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:12:27.446+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:12:27.452+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:12:27.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.060 seconds
+[2024-04-14T12:12:58.155+0000] {processor.py:161} INFO - Started process (PID=5041) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:12:58.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:12:58.174+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:12:58.173+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:12:58.214+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:12:58.204+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:12:58.216+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:12:58.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.145 seconds
+[2024-04-14T12:13:28.472+0000] {processor.py:161} INFO - Started process (PID=5100) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:13:28.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:13:28.477+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:13:28.476+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:13:28.500+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:13:28.496+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:13:28.503+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:13:28.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.066 seconds
+[2024-04-14T12:13:58.828+0000] {processor.py:161} INFO - Started process (PID=5158) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:13:58.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:13:58.835+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:13:58.835+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:13:58.868+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:13:58.860+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:13:58.870+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:13:58.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.089 seconds
+[2024-04-14T12:14:29.792+0000] {processor.py:161} INFO - Started process (PID=5217) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:14:29.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:14:29.796+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:14:29.796+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:14:29.821+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:14:29.815+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:14:29.823+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:14:29.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.086 seconds
+[2024-04-14T12:15:00.159+0000] {processor.py:161} INFO - Started process (PID=5276) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:15:00.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:15:00.166+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:15:00.166+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:15:00.197+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:15:00.189+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:15:00.200+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:15:00.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.083 seconds
+[2024-04-14T12:15:30.944+0000] {processor.py:161} INFO - Started process (PID=5336) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:15:30.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:15:30.948+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:15:30.948+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:15:30.972+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:15:30.967+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:15:30.974+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:15:31.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.068 seconds
+[2024-04-14T12:16:01.464+0000] {processor.py:161} INFO - Started process (PID=5395) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:16:01.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:16:01.469+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:16:01.468+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:16:01.502+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:16:01.494+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:16:01.505+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:16:01.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.090 seconds
+[2024-04-14T12:16:31.811+0000] {processor.py:161} INFO - Started process (PID=5454) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:16:31.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:16:31.815+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:16:31.815+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:16:31.864+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:16:31.857+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:16:31.867+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:16:31.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.101 seconds
+[2024-04-14T12:17:02.514+0000] {processor.py:161} INFO - Started process (PID=5513) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:17:02.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:17:02.522+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:17:02.521+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:17:02.586+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:17:02.575+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:17:02.589+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:17:02.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.144 seconds
+[2024-04-14T12:17:33.208+0000] {processor.py:161} INFO - Started process (PID=5571) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:17:33.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:17:33.212+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:17:33.212+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:17:33.238+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:17:33.231+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:17:33.242+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:17:33.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.075 seconds
+[2024-04-14T12:18:04.049+0000] {processor.py:161} INFO - Started process (PID=5630) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:18:04.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:18:04.054+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:18:04.054+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:18:04.076+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:18:04.071+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:18:04.078+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:18:04.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.071 seconds
+[2024-04-14T12:18:34.819+0000] {processor.py:161} INFO - Started process (PID=5689) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:18:34.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:18:34.825+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:18:34.824+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:18:34.850+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:18:34.844+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:18:34.853+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:18:34.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.077 seconds
+[2024-04-14T12:19:05.153+0000] {processor.py:161} INFO - Started process (PID=5748) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:19:05.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:19:05.159+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:19:05.158+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:19:05.187+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:19:05.181+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:19:05.191+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:19:05.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.080 seconds
+[2024-04-14T12:19:35.331+0000] {processor.py:161} INFO - Started process (PID=5807) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:19:35.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:19:35.335+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:19:35.335+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:19:35.463+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:19:35.443+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:19:35.465+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:19:35.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.182 seconds
+[2024-04-14T12:20:05.832+0000] {processor.py:161} INFO - Started process (PID=5866) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:20:05.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:20:05.837+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:20:05.836+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:20:05.865+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:20:05.858+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:20:05.867+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:20:05.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.072 seconds
+[2024-04-14T12:20:36.653+0000] {processor.py:161} INFO - Started process (PID=5925) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:20:36.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:20:36.659+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:20:36.658+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:20:36.698+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:20:36.690+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:20:36.700+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:20:36.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.092 seconds
+[2024-04-14T12:21:07.039+0000] {processor.py:161} INFO - Started process (PID=5984) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:21:07.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:21:07.044+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:21:07.043+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:21:07.092+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:21:07.081+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:21:07.094+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:21:07.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.150 seconds
+[2024-04-14T12:21:37.793+0000] {processor.py:161} INFO - Started process (PID=6043) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:21:37.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:21:37.798+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:21:37.797+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:21:37.830+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:21:37.825+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:21:37.837+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:21:37.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.099 seconds
+[2024-04-14T12:22:08.076+0000] {processor.py:161} INFO - Started process (PID=6101) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:22:08.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:22:08.086+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:22:08.085+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:22:08.145+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:22:08.129+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:22:08.155+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:22:08.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.135 seconds
+[2024-04-14T12:22:38.268+0000] {processor.py:161} INFO - Started process (PID=6160) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:22:38.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:22:38.272+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:22:38.272+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:22:38.314+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:22:38.292+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:22:38.329+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:22:38.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.121 seconds
+[2024-04-14T12:23:09.090+0000] {processor.py:161} INFO - Started process (PID=6217) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:23:09.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:23:09.096+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:23:09.095+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:23:09.124+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:23:09.117+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:23:09.126+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:23:09.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.086 seconds
+[2024-04-14T12:23:41.678+0000] {processor.py:161} INFO - Started process (PID=6275) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:23:41.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:23:41.694+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:23:41.693+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:23:41.738+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:23:41.729+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:23:41.741+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:23:41.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.170 seconds
+[2024-04-14T12:24:12.796+0000] {processor.py:161} INFO - Started process (PID=6334) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:24:12.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:24:12.802+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:24:12.801+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:24:12.831+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:24:12.825+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:24:12.834+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:24:12.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.085 seconds
+[2024-04-14T12:24:43.015+0000] {processor.py:161} INFO - Started process (PID=6393) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:24:43.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:24:43.019+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:24:43.019+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:24:43.047+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:24:43.041+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:24:43.049+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:24:43.084+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.085 seconds
+[2024-04-14T12:25:13.744+0000] {processor.py:161} INFO - Started process (PID=6452) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:25:13.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:25:13.748+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:25:13.748+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:25:13.773+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:25:13.768+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:25:13.775+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:25:13.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.069 seconds
+[2024-04-14T12:25:44.122+0000] {processor.py:161} INFO - Started process (PID=6511) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:25:44.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:25:44.128+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:25:44.127+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:25:44.158+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:25:44.151+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 10, in <module>
+    with DAG("dag",startdat= datetime(2024/5/15),
+                             ^^^^^^^^^^^^^^^^^^^
+TypeError: 'float' object cannot be interpreted as an integer
+[2024-04-14T12:25:44.163+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:25:44.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.103 seconds
+[2024-04-14T12:26:05.210+0000] {processor.py:161} INFO - Started process (PID=6548) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:26:05.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:26:05.214+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:26:05.213+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:26:05.257+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:26:05.251+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:26:05.260+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:26:05.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.111 seconds
+[2024-04-14T12:26:35.509+0000] {processor.py:161} INFO - Started process (PID=6607) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:26:35.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:26:35.517+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:26:35.517+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:26:35.541+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:26:35.535+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:26:35.542+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:26:35.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.080 seconds
+[2024-04-14T12:27:06.505+0000] {processor.py:161} INFO - Started process (PID=6666) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:27:06.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:27:06.509+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:27:06.508+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:27:06.533+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:27:06.528+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:27:06.536+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:27:06.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.074 seconds
+[2024-04-14T12:27:37.563+0000] {processor.py:161} INFO - Started process (PID=6725) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:27:37.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:27:37.567+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:27:37.567+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:27:37.591+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:27:37.586+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:27:37.594+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:27:37.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.083 seconds
+[2024-04-14T12:28:08.049+0000] {processor.py:161} INFO - Started process (PID=6784) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:28:08.051+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:28:08.056+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:28:08.055+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:28:08.087+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:28:08.080+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:28:08.091+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:28:08.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.095 seconds
+[2024-04-14T12:28:38.230+0000] {processor.py:161} INFO - Started process (PID=6843) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:28:38.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:28:38.238+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:28:38.235+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:28:38.272+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:28:38.265+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:28:38.276+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:28:38.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.093 seconds
+[2024-04-14T12:29:08.464+0000] {processor.py:161} INFO - Started process (PID=6903) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:29:08.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:29:08.468+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:29:08.468+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:29:08.490+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:29:08.485+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:29:08.492+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:29:08.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.064 seconds
+[2024-04-14T12:29:39.083+0000] {processor.py:161} INFO - Started process (PID=6962) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:29:39.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:29:39.086+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:29:39.086+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:29:39.110+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:29:39.105+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:29:39.111+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:29:39.138+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.063 seconds
+[2024-04-14T12:30:10.076+0000] {processor.py:161} INFO - Started process (PID=7021) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:30:10.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:30:10.080+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:30:10.079+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:30:10.101+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:30:10.096+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:30:10.103+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:30:10.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.060 seconds
+[2024-04-14T12:30:40.875+0000] {processor.py:161} INFO - Started process (PID=7081) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:30:40.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:30:40.882+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:30:40.881+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:30:40.908+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:30:40.901+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:30:40.911+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:30:40.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.096 seconds
+[2024-04-14T12:31:11.653+0000] {processor.py:161} INFO - Started process (PID=7140) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:31:11.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:31:11.658+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:31:11.657+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:31:11.681+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:31:11.676+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:31:11.683+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:31:11.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.061 seconds
+[2024-04-14T12:31:42.047+0000] {processor.py:161} INFO - Started process (PID=7199) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:31:42.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:31:42.121+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:31:42.120+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:31:42.153+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:31:42.148+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:31:42.156+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:31:42.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.145 seconds
+[2024-04-14T12:32:12.278+0000] {processor.py:161} INFO - Started process (PID=7258) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:32:12.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:32:12.283+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:32:12.282+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:32:12.305+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:32:12.299+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:32:12.308+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:32:12.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.062 seconds
+[2024-04-14T12:32:42.465+0000] {processor.py:161} INFO - Started process (PID=7316) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:32:42.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:32:42.468+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:32:42.468+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:32:42.501+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:32:42.493+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:32:42.506+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:32:42.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.087 seconds
+[2024-04-14T12:33:12.902+0000] {processor.py:161} INFO - Started process (PID=7376) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:33:12.904+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:33:12.907+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:33:12.906+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:33:12.936+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:33:12.930+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:33:12.941+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:33:12.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.090 seconds
+[2024-04-14T12:33:43.158+0000] {processor.py:161} INFO - Started process (PID=7434) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:33:43.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:33:43.162+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:33:43.162+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:33:43.192+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:33:43.184+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:33:43.194+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:33:43.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.076 seconds
+[2024-04-14T12:34:13.905+0000] {processor.py:161} INFO - Started process (PID=7493) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:34:13.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:34:13.910+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:34:13.910+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:34:13.936+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:34:13.931+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:34:13.939+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:34:13.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.096 seconds
+[2024-04-14T12:34:44.626+0000] {processor.py:161} INFO - Started process (PID=7552) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:34:44.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:34:44.631+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:34:44.631+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:34:44.658+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:34:44.652+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:34:44.661+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:34:44.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.085 seconds
+[2024-04-14T12:35:15.452+0000] {processor.py:161} INFO - Started process (PID=7611) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:35:15.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:35:15.456+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:35:15.456+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:35:15.481+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:35:15.475+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:35:15.483+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:35:15.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.070 seconds
+[2024-04-14T12:35:45.731+0000] {processor.py:161} INFO - Started process (PID=7670) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:35:45.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:35:45.736+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:35:45.735+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:35:45.757+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:35:45.753+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:35:45.759+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:35:45.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.062 seconds
+[2024-04-14T12:36:16.014+0000] {processor.py:161} INFO - Started process (PID=7730) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:36:16.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:36:16.019+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:36:16.018+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:36:16.045+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:36:16.039+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:36:16.047+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:36:16.076+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.072 seconds
+[2024-04-14T12:36:46.402+0000] {processor.py:161} INFO - Started process (PID=7789) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:36:46.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:36:46.407+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:36:46.406+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:36:46.430+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:36:46.425+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:36:46.432+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:36:46.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.078 seconds
+[2024-04-14T12:37:16.588+0000] {processor.py:161} INFO - Started process (PID=7848) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:37:16.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:37:16.599+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:37:16.599+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:37:16.629+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:37:16.622+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 13, in <module>
+    with DAG("dag",startdat= datetime('2024/5/15'),
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:37:16.632+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:37:16.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.083 seconds
+[2024-04-14T12:37:26.776+0000] {processor.py:161} INFO - Started process (PID=7868) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:37:26.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:37:26.780+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:37:26.779+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:37:26.821+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:37:26.812+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 3, in <module>
+    from airflow.operators.bash import BachOperator
+ImportError: cannot import name 'BachOperator' from 'airflow.operators.bash' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py)
+[2024-04-14T12:37:26.825+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:37:26.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.088 seconds
+[2024-04-14T12:37:57.623+0000] {processor.py:161} INFO - Started process (PID=7928) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:37:57.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:37:57.626+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:37:57.626+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:37:57.653+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:37:57.643+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 3, in <module>
+    from airflow.operators.bash import BachOperator
+ImportError: cannot import name 'BachOperator' from 'airflow.operators.bash' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py)
+[2024-04-14T12:37:57.659+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:37:57.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.077 seconds
+[2024-04-14T12:38:28.351+0000] {processor.py:161} INFO - Started process (PID=7988) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:38:28.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:38:28.357+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:38:28.356+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:38:28.673+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:38:28.405+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 3, in <module>
+    from airflow.operators.bash import BachOperator
+ImportError: cannot import name 'BachOperator' from 'airflow.operators.bash' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py)
+[2024-04-14T12:38:28.692+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:38:28.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.424 seconds
+[2024-04-14T12:38:38.387+0000] {processor.py:161} INFO - Started process (PID=8014) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:38:38.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:38:38.392+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:38:38.392+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:38:38.476+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:38:38.464+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 3, in <module>
+    from airflow.operators.bash import BachOperator
+ImportError: cannot import name 'BachOperator' from 'airflow.operators.bash' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py)
+[2024-04-14T12:38:38.484+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:38:38.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.168 seconds
+[2024-04-14T12:39:08.853+0000] {processor.py:161} INFO - Started process (PID=8071) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:39:08.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:39:08.892+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:39:08.891+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:39:09.119+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:39:09.086+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 3, in <module>
+    from airflow.operators.bash import BachOperator
+ImportError: cannot import name 'BachOperator' from 'airflow.operators.bash' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py)
+[2024-04-14T12:39:09.135+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:39:09.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.400 seconds
+[2024-04-14T12:39:40.091+0000] {processor.py:161} INFO - Started process (PID=8130) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:39:40.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:39:40.096+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:39:40.096+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:39:40.143+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:39:40.124+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 3, in <module>
+    from airflow.operators.bash import BachOperator
+ImportError: cannot import name 'BachOperator' from 'airflow.operators.bash' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py)
+[2024-04-14T12:39:40.150+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:39:40.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.101 seconds
+[2024-04-14T12:40:10.686+0000] {processor.py:161} INFO - Started process (PID=8189) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:40:10.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:40:10.694+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:40:10.692+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:40:10.736+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:40:10.726+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 3, in <module>
+    from airflow.operators.bash import BachOperator
+ImportError: cannot import name 'BachOperator' from 'airflow.operators.bash' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py)
+[2024-04-14T12:40:10.742+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:40:10.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.109 seconds
+[2024-04-14T12:40:41.479+0000] {processor.py:161} INFO - Started process (PID=8247) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:40:41.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:40:41.484+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:40:41.483+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:40:41.513+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:40:41.504+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 3, in <module>
+    from airflow.operators.bash import BachOperator
+ImportError: cannot import name 'BachOperator' from 'airflow.operators.bash' (/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py)
+[2024-04-14T12:40:41.518+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:40:41.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.078 seconds
+[2024-04-14T12:40:58.050+0000] {processor.py:161} INFO - Started process (PID=8279) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:40:58.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:40:58.055+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:40:58.055+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:40:58.094+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:40:58.087+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 25, in <module>
+    with DAG("dag",startdate= datetime('2024/5/15'),
+                              ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:40:58.097+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:40:58.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.084 seconds
+[2024-04-14T12:41:29.074+0000] {processor.py:161} INFO - Started process (PID=8338) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:41:29.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:41:29.083+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:41:29.082+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:41:29.119+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:41:29.113+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 25, in <module>
+    with DAG("dag",startdate= datetime('2024/5/15'),
+                              ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:41:29.121+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:41:29.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.105 seconds
+[2024-04-14T12:41:59.475+0000] {processor.py:161} INFO - Started process (PID=8397) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:41:59.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:41:59.483+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:41:59.482+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:41:59.507+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:41:59.501+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 25, in <module>
+    with DAG("dag",startdate= datetime('2024/5/15'),
+                              ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:41:59.509+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:41:59.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.080 seconds
+[2024-04-14T12:42:29.847+0000] {processor.py:161} INFO - Started process (PID=8456) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:42:29.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:42:29.853+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:42:29.853+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:42:29.879+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:42:29.873+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 25, in <module>
+    with DAG("dag",startdate= datetime('2024/5/15'),
+                              ^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2024-04-14T12:42:29.882+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:42:29.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.082 seconds
+[2024-04-14T12:42:47.401+0000] {processor.py:161} INFO - Started process (PID=8492) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:42:47.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:42:47.405+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:42:47.404+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:42:47.437+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:42:47.432+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 25, in <module>
+    with DAG("dag",startdate= datetime(2024,5,15),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'startdate'
+[2024-04-14T12:42:47.439+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:42:47.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.071 seconds
+[2024-04-14T12:43:17.934+0000] {processor.py:161} INFO - Started process (PID=8551) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:43:17.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:43:17.938+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:43:17.938+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:43:17.959+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:43:17.954+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 25, in <module>
+    with DAG("dag",startdate= datetime(2024,5,15),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'startdate'
+[2024-04-14T12:43:17.960+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:43:17.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.058 seconds
+[2024-04-14T12:43:48.962+0000] {processor.py:161} INFO - Started process (PID=8610) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:43:48.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:43:48.965+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:43:48.965+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:43:48.986+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:43:48.981+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 25, in <module>
+    with DAG("dag",startdate= datetime(2024,5,15),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'startdate'
+[2024-04-14T12:43:48.988+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:43:49.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.062 seconds
+[2024-04-14T12:44:10.318+0000] {processor.py:161} INFO - Started process (PID=8651) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:44:10.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:44:10.321+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:44:10.321+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:44:10.376+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:44:10.371+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 47, in <module>
+    accurate = BashOperator(
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-04-14T12:44:10.378+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:44:10.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.104 seconds
+[2024-04-14T12:44:41.043+0000] {processor.py:161} INFO - Started process (PID=8711) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:44:41.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:44:41.057+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:44:41.057+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:44:41.116+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:44:41.111+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 47, in <module>
+    accurate = BashOperator(
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-04-14T12:44:41.119+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:44:41.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.116 seconds
+[2024-04-14T12:45:11.596+0000] {processor.py:161} INFO - Started process (PID=8770) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:45:11.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:45:11.602+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:45:11.601+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:45:11.664+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:45:11.657+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 47, in <module>
+    accurate = BashOperator(
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-04-14T12:45:11.669+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:45:11.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.116 seconds
+[2024-04-14T12:45:41.793+0000] {processor.py:161} INFO - Started process (PID=8829) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:45:41.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:45:41.797+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:45:41.796+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:45:41.846+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:45:41.840+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 47, in <module>
+    accurate = BashOperator(
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-04-14T12:45:41.848+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:45:41.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.094 seconds
+[2024-04-14T12:46:12.170+0000] {processor.py:161} INFO - Started process (PID=8888) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:46:12.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:46:12.174+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:46:12.173+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:46:12.214+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:46:12.208+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 47, in <module>
+    accurate = BashOperator(
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-04-14T12:46:12.216+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:46:12.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.085 seconds
+[2024-04-14T12:46:42.393+0000] {processor.py:161} INFO - Started process (PID=8948) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:46:42.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:46:42.398+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:46:42.397+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:46:42.436+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:46:42.430+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 47, in <module>
+    accurate = BashOperator(
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-04-14T12:46:42.438+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:46:42.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.087 seconds
+[2024-04-14T12:46:54.199+0000] {processor.py:161} INFO - Started process (PID=8972) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:46:54.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:46:54.209+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:46:54.208+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:46:54.290+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:46:54.280+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 47, in <module>
+    accurate = BashOperator(
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-04-14T12:46:54.292+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:46:54.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.137 seconds
+[2024-04-14T12:47:25.019+0000] {processor.py:161} INFO - Started process (PID=9031) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:47:25.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:47:25.037+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:47:25.036+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:47:25.132+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:47:25.125+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 47, in <module>
+    accurate = BashOperator(
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-04-14T12:47:25.136+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:47:25.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.196 seconds
+[2024-04-14T12:47:55.616+0000] {processor.py:161} INFO - Started process (PID=9090) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:47:55.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:47:55.621+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:47:55.620+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:47:55.662+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:47:55.655+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 47, in <module>
+    accurate = BashOperator(
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-04-14T12:47:55.664+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:47:55.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.090 seconds
+[2024-04-14T12:48:26.204+0000] {processor.py:161} INFO - Started process (PID=9150) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:48:26.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:48:26.210+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:48:26.210+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:48:26.253+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:48:26.246+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 47, in <module>
+    accurate = BashOperator(
+               ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 467, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2024-04-14T12:48:26.256+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:48:26.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.089 seconds
+[2024-04-14T12:48:38.336+0000] {processor.py:161} INFO - Started process (PID=9167) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:48:38.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:48:38.340+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:48:38.339+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:48:38.391+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:48:38.611+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:48:38.611+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:dag
+[2024-04-14T12:48:38.662+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:48:38.662+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:dag
+[2024-04-14T12:48:38.705+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:48:38.704+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:dag
+[2024-04-14T12:48:38.706+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:48:38.706+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:48:38.745+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:48:38.745+0000] {dag.py:3118} INFO - Creating ORM DAG for dag
+[2024-04-14T12:48:38.785+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:48:38.784+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:48:38.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.584 seconds
+[2024-04-14T12:49:09.968+0000] {processor.py:161} INFO - Started process (PID=9227) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:49:09.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:49:09.973+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:49:09.972+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:49:10.013+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:49:10.043+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:49:10.043+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:49:10.081+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:49:10.081+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:49:10.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.161 seconds
+[2024-04-14T12:49:41.082+0000] {processor.py:161} INFO - Started process (PID=9286) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:49:41.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:49:41.094+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:49:41.093+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:49:41.163+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:49:41.213+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:49:41.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:49:41.264+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:49:41.263+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:49:41.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.244 seconds
+[2024-04-14T12:50:12.006+0000] {processor.py:161} INFO - Started process (PID=9345) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:50:12.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:50:12.021+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:50:12.021+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:50:12.099+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:50:12.141+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:50:12.140+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:50:12.228+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:50:12.228+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:50:12.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.293 seconds
+[2024-04-14T12:50:42.514+0000] {processor.py:161} INFO - Started process (PID=9404) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:50:42.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:50:42.518+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:50:42.517+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:50:42.562+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:50:42.593+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:50:42.593+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:50:42.636+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:50:42.635+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:50:42.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.173 seconds
+[2024-04-14T12:51:13.014+0000] {processor.py:161} INFO - Started process (PID=9463) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:51:13.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:51:13.018+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:51:13.017+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:51:13.061+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:51:13.088+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:51:13.088+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:51:13.130+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:51:13.130+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:51:13.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.164 seconds
+[2024-04-14T12:51:43.235+0000] {processor.py:161} INFO - Started process (PID=9521) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:51:43.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:51:43.239+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:51:43.238+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:51:43.282+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:51:43.321+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:51:43.321+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:51:43.361+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:51:43.361+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:51:43.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.168 seconds
+[2024-04-14T12:52:13.735+0000] {processor.py:161} INFO - Started process (PID=9579) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:52:13.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:52:13.739+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:52:13.738+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:52:13.783+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:52:13.818+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:52:13.818+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:52:13.865+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:52:13.865+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:52:13.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.190 seconds
+[2024-04-14T12:52:44.190+0000] {processor.py:161} INFO - Started process (PID=9637) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:52:44.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:52:44.194+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:52:44.193+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:52:44.241+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:52:44.274+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:52:44.273+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:52:44.309+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:52:44.309+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:52:44.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.158 seconds
+[2024-04-14T12:53:14.608+0000] {processor.py:161} INFO - Started process (PID=9695) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:53:14.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:53:14.612+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:53:14.612+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:53:14.663+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:53:14.703+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:53:14.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:53:14.768+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:53:14.768+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:53:14.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.219 seconds
+[2024-04-14T12:53:44.921+0000] {processor.py:161} INFO - Started process (PID=9752) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:53:44.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:53:44.925+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:53:44.925+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:53:44.960+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:53:45.021+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:53:45.020+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:53:45.071+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:53:45.071+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:53:45.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.230 seconds
+[2024-04-14T12:54:15.914+0000] {processor.py:161} INFO - Started process (PID=9810) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:54:15.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:54:15.924+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:54:15.923+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:54:15.978+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:54:16.020+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:54:16.020+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:54:16.063+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:54:16.063+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:54:16.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.208 seconds
+[2024-04-14T12:54:27.385+0000] {processor.py:161} INFO - Started process (PID=9852) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:54:27.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:54:27.389+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:54:27.388+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:54:27.452+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:54:27.445+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag.py", line 56, in <module>
+    [training_model_A, training_model_B, training_model_C] >> choose_best_model [accurate, inaccurate]
+                                                              ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'BranchPythonOperator' object is not subscriptable
+[2024-04-14T12:54:27.455+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:54:27.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.120 seconds
+[2024-04-14T12:54:43.048+0000] {processor.py:161} INFO - Started process (PID=9866) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:54:43.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:54:43.057+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:54:43.057+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:54:43.130+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:54:43.321+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:54:43.320+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:54:43.354+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:54:43.353+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:54:43.395+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.358 seconds
+[2024-04-14T12:55:02.954+0000] {processor.py:161} INFO - Started process (PID=9917) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:55:02.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:55:02.957+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:55:02.957+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:55:03.042+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:55:03.058+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:55:03.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:55:03.098+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:55:03.097+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:55:03.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.189 seconds
+[2024-04-14T12:55:33.721+0000] {processor.py:161} INFO - Started process (PID=9976) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:55:33.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:55:33.727+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:55:33.726+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:55:33.766+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:55:33.796+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:55:33.795+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:55:33.829+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:55:33.829+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:55:33.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.148 seconds
+[2024-04-14T12:56:03.969+0000] {processor.py:161} INFO - Started process (PID=10035) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:56:03.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:56:03.973+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:56:03.973+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:56:04.011+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:56:04.036+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:56:04.036+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:56:04.065+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:56:04.064+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:56:04.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.141 seconds
+[2024-04-14T12:56:36.647+0000] {processor.py:161} INFO - Started process (PID=10094) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:56:36.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:56:36.664+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:56:36.663+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:56:36.763+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:56:36.859+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:56:36.859+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:56:37.005+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:56:37.004+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:56:37.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.488 seconds
+[2024-04-14T12:57:07.980+0000] {processor.py:161} INFO - Started process (PID=10153) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:57:07.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:57:07.985+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:57:07.985+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:57:08.049+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:57:08.085+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:57:08.085+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:57:08.133+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:57:08.133+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:57:08.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.219 seconds
+[2024-04-14T12:57:38.849+0000] {processor.py:161} INFO - Started process (PID=10211) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:57:38.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:57:38.854+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:57:38.853+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:57:38.891+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:57:38.919+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:57:38.919+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:57:38.973+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:57:38.973+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:57:39.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.162 seconds
+[2024-04-14T12:58:09.598+0000] {processor.py:161} INFO - Started process (PID=10270) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:58:09.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:58:09.602+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:58:09.602+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:58:09.639+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:58:09.670+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:58:09.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:58:09.707+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:58:09.707+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:58:09.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.150 seconds
+[2024-04-14T12:58:18.627+0000] {processor.py:161} INFO - Started process (PID=10283) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:58:18.628+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:58:18.632+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:58:18.632+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:58:18.677+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:58:18.702+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:58:18.702+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:58:18.731+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:58:18.731+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:58:18.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.148 seconds
+[2024-04-14T12:58:48.870+0000] {processor.py:161} INFO - Started process (PID=10342) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:58:48.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:58:48.874+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:58:48.874+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:58:48.909+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:58:48.935+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:58:48.935+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:58:48.969+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:58:48.969+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:58:48.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.135 seconds
+[2024-04-14T12:59:19.527+0000] {processor.py:161} INFO - Started process (PID=10401) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:59:19.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:59:19.531+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:19.531+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:59:19.563+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:59:19.590+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:19.589+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:59:19.619+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:19.619+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:59:19.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.128 seconds
+[2024-04-14T12:59:49.795+0000] {processor.py:161} INFO - Started process (PID=10460) to work on /opt/airflow/dags/dag.py
+[2024-04-14T12:59:49.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T12:59:49.802+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:49.801+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T12:59:49.840+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T12:59:49.867+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:49.866+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:59:49.897+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:49.897+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T12:59:49.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.141 seconds
+[2024-04-14T13:00:20.403+0000] {processor.py:161} INFO - Started process (PID=10520) to work on /opt/airflow/dags/dag.py
+[2024-04-14T13:00:20.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T13:00:20.408+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:20.407+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T13:00:20.448+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T13:00:20.474+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:20.474+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:00:20.508+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:20.508+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T13:00:20.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.147 seconds
+[2024-04-14T13:00:50.819+0000] {processor.py:161} INFO - Started process (PID=10579) to work on /opt/airflow/dags/dag.py
+[2024-04-14T13:00:50.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T13:00:50.823+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:50.823+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T13:00:50.858+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T13:00:50.890+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:50.890+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:00:50.922+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:50.921+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T13:00:50.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.140 seconds
+[2024-04-14T13:01:21.256+0000] {processor.py:161} INFO - Started process (PID=10638) to work on /opt/airflow/dags/dag.py
+[2024-04-14T13:01:21.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T13:01:21.260+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:21.259+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T13:01:21.299+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T13:01:21.330+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:21.329+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:01:21.370+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:21.370+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T13:01:21.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.155 seconds
+[2024-04-14T13:01:51.635+0000] {processor.py:161} INFO - Started process (PID=10697) to work on /opt/airflow/dags/dag.py
+[2024-04-14T13:01:51.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T13:01:51.640+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:51.639+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T13:01:51.672+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T13:01:51.700+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:51.700+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:01:51.733+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:51.732+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T13:01:51.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.135 seconds
+[2024-04-14T13:02:22.300+0000] {processor.py:161} INFO - Started process (PID=10756) to work on /opt/airflow/dags/dag.py
+[2024-04-14T13:02:22.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T13:02:22.304+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:22.304+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T13:02:22.337+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T13:02:22.363+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:22.362+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:02:22.392+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:22.392+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T13:02:22.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.128 seconds
+[2024-04-14T13:02:52.984+0000] {processor.py:161} INFO - Started process (PID=10815) to work on /opt/airflow/dags/dag.py
+[2024-04-14T13:02:52.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag.py for tasks to queue
+[2024-04-14T13:02:52.988+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:52.987+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dag.py
+[2024-04-14T13:02:53.021+0000] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /opt/airflow/dags/dag.py
+[2024-04-14T13:02:53.047+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:53.046+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:02:53.076+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:53.076+0000] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-05-15 00:00:00+00:00, run_after=2024-05-16 00:00:00+00:00
+[2024-04-14T13:02:53.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag.py took 0.128 seconds
